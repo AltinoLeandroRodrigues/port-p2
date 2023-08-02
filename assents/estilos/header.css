@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url('header.avif');
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    background-size: cover;
+
+    object-fit: cover;
+
+    padding-bottom: 30px;
+}
+
+nav {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 20px;
+
+}
+
+
+h1 {
+    display: flex;
+
+    align-items: start;
+
+    justify-content: left;
+
+    width: 50%;
+
+    float: left;
+}
+
+
+
+h1 a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 40px;
+
+    transition: transform 1s;
+
+    margin-left: 20px;
+}
+
+h1 a:hover {
+    transform: scale(1.2);
+}
+
+
+nav ul {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 50%;
+
+    list-style: none;
+}
+
+nav ul a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    margin-left: 10px;
+
+    transition: color 1s;
+}
+
+nav ul a:hover {
+    color: rgba(255, 255, 255, 0.476);
+
+    text-decoration: underline;
+}
+
+
+.a {
+    color: red;
+}
+
+.L {
+    color: blue;
+}
+
+span {
+    text-decoration: underline;
+}
+
+figure img {
+    width: 150px;
+
+    height: 170px;
+
+    margin: auto;
+
+}
+
+
+figure {
+    overflow: hidden;
+
+    border: 1px solid red;
+
+    border-radius: 300px;
+
+    width: 150px;
+
+    height: 170px;
+
+    margin: auto;
+
+    margin-top: 20px;
+}
+
+header .paragrafo {
+    text-align: center;
+
+    color: white;
+
+    font-size: 30px;
+}
+
+
+.container {
+    width: 40%;
+
+    height: 0;
+
+    margin: auto;
+
+    color: white;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    font-size: 25px;
+
+    animation: animate 2s steps(10) infinite;
+
+    animation-delay: 3s;
+
+
+}
+
+@keyframes animate {
+    30% {
+        width: 0px;
+        height: 0;
+    }
+
+    50% {
+        width: 50px;
+        height: 0;
+    }
+
+    80% {
+        width: 220px;
+        height: 0;
+    }
+
+    100% {
+        width: 500px;
+        height: 0;
+    }
+}
+
+
+@media (min-width:992px) and(max-width:1200px) {
+    h1 {
+        position: absolute;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+     
+        margin-top: 90px;
+
+
+         font-size: 16px;
+    }
+
+    nav {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        padding: 20px;
+
+        margin: auto;
+
+        width: 100%;
+
+    }
+
+
+    figure {
+        overflow: hidden;
+    
+        border: 1px solid red;
+    
+        border-radius: 300px;
+    
+        width: 150px;
+    
+        height: 170px;
+    
+        margin: auto;
+    
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+@media (min-width:768px) and(max-width:991px) {
+    h1 {
+        position: absolute;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+     
+        margin-top: 90px;
+
+
+         font-size: 16px;
+    }
+
+    nav {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        padding: 20px;
+
+        margin: auto;
+
+        width: 100%;
+
+    }
+
+
+    figure {
+        overflow: hidden;
+    
+        border: 1px solid red;
+    
+        border-radius: 300px;
+    
+        width: 150px;
+    
+        height: 170px;
+    
+        margin: auto;
+    
+        margin-top: 50px;
+    }
+}
+
+
+@media(max-width:767px) {
+    h1 {
+        position: absolute;
+
+        display: none;
+
+        align-items: center;
+
+        justify-content: center;
+
+     
+        margin-top: 90px;
+
+
+         font-size: 16px;
+    }
+
+    nav {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        padding: 20px;
+
+        margin: auto;
+
+        width: 100%;
+
+    }
+
+
+    figure {
+        overflow: hidden;
+    
+        border: 1px solid red;
+    
+        border-radius: 300px;
+    
+        width: 150px;
+    
+        height: 170px;
+    
+        margin: auto;
+    
+        margin-top: 50px;
+    }
+}

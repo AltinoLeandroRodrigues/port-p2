@@ -60,10 +60,12 @@ h1 a {
     transition: transform 1s;
 
     margin-left: 20px;
+
+    animation: animate 1s infinite;
 }
 
-h1 a:hover {
-    transform: scale(1.2);
+ @keyframes animate {
+    90%{transform: scale(1.2);}
 }
 
 
@@ -145,49 +147,39 @@ header .paragrafo {
 }
 
 
+ 
 .container {
-    width: 40%;
-
-    height: 0;
-
-    margin: auto;
-
-    color: white;
-
-    text-align: center;
-
-    margin-top: 10px;
-
-    font-size: 25px;
-
-    animation: animate 2s steps(10) infinite;
-
-    animation-delay: 3s;
-
-
+font-size: 40px;
+color: white;
+margin: auto;
+white-space: nowrap;
+overflow: hidden;
+animation: typewriter 3s steps(13) infinite alternate,
+blink 800ms steps(13) infinite normal;
+border-right: 5px solid blue;
 }
 
-@keyframes animate {
-    30% {
-        width: 0px;
-        height: 0;
-    }
-
-    50% {
-        width: 50px;
-        height: 0;
-    }
-
-    80% {
-        width: 220px;
-        height: 0;
-    }
-
-    100% {
-        width: 500px;
-        height: 0;
-    }
+@keyframes typewriter {
+from {
+width: 0%;
 }
+to {
+width: 50%;
+}
+}
+
+@keyframes blink {
+from {
+border-color: black;
+}
+
+to {
+border-color: transparent;
+}
+}
+
+
+ 
 
 
 @media (min-width:992px) and(max-width:1200px) {
@@ -238,11 +230,43 @@ header .paragrafo {
     
         margin-top: 50px;
     }
+
+    /* Começo typing */
+    .container {
+        font-size: 40px;
+        color: white;
+        margin: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 3s steps(13) infinite alternate,
+        blink 800ms steps(13) infinite normal;
+        border-right: 5px solid blue;
+        }
+        
+        @keyframes typewriter {
+        from {
+        width: 0%;
+        }
+        to {
+        width: 50%;
+        }
+        }
+        
+        @keyframes blink {
+        from {
+        border-color: black;
+        }
+        
+        to {
+        border-color: transparent;
+        }
+        }
 }
 
+/* fim typying */
 
 
-
+/* Responsividade */
 
 @media (min-width:768px) and(max-width:991px) {
     h1 {
@@ -292,6 +316,36 @@ header .paragrafo {
     
         margin-top: 50px;
     }
+
+    .container {
+        font-size: 40px;
+        color: white;
+        margin: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 3s steps(13) infinite alternate,
+        blink 800ms steps(13) infinite normal;
+        border-right: 5px solid blue;
+        }
+        
+        @keyframes typewriter {
+        from {
+        width: 0%;
+        }
+        to {
+        width: 75%;
+        }
+        }
+        
+        @keyframes blink {
+        from {
+        border-color: black;
+        }
+        
+        to {
+        border-color: transparent;
+        }
+        }
 }
 
 
@@ -343,4 +397,34 @@ header .paragrafo {
     
         margin-top: 50px;
     }
+
+    .container {
+        font-size: 28px;
+        color: white;
+        margin: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 3s steps(13) infinite alternate,
+        blink 800ms steps(13) infinite normal;
+        border-right: 5px solid blue;
+        }
+        
+        @keyframes typewriter {
+        from {
+        width: 0%;
+        }
+        to {
+        width: 100%;
+        }
+        }
+        
+        @keyframes blink {
+        from {
+        border-color: black;
+        }
+        
+        to {
+        border-color: transparent;
+        }
+        }
 }

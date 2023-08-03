@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Meu Portiolio </title>
+    <link rel="stylesheet" type="text-css" href="fontawesome-free-6.4.2-web/css/all.min.css">
     <link rel="stylesheet" href="assents/estilos/header.css">
+    <link rel="stylesheet" href="assents/estilos/responsividadenav.css">
 </head>
+<style>
+    
+</style>
+
 <body>
     <header>
         <nav>
-            <h1><a href=""> Altino <span class="a">A</span><span class="L">L</span><span>R</span></a></h1>
-            <ul>
+            <h1><a href=""> <span class="span1"> <span class="a">A</span><span class="L">L</span><span>R</span></a></h1>
+            <button> <i class="fa-solid fa-bars" id="fa"></i> </button>
+
+            <di class="mobile-Menu"onclick="clicar()" id="button" >
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </di>
+           
+            <i class="fa-solid fa-xmark"  onclick="fechar()" id="button1" style="display: none; color: red; font-size: 50px; height: 40px; cursor: pointer;" ></i>
+
+            <ul class="nav-list" id="navList" >
                 <li> <a href=""> INICIO </a> </li>
                 <li> <a href=""> SOBRE </a> </li>
                 <li> <a href=""> SERVIÇOS </a> </li>
-                <li> <a href=""> CONTACTOS  </a> </li>
-
+                <li> <a href=""> CONTACTOS </a> </li>
             </ul>
+
         </nav>
 
         <figure>
             <img src="assents/imagens/WIN_20230802_14_38_54_Pro.jpg" alt="Minha imagem de perfil">
         </figure>
         <P class="paragrafo"> ALTINO RODRIGUES </P>
-
-        
-         <h2 class="container"> Eu sou: programador e freelancer</h2>
-         <i class="fa-solid fa-bars fa-beat-fade" style="color: #0561ff;"></i>  
-
-         
-
+        <h2 class="container"> Eu sou: programador e freelancer</h2>
     </header>
-  
+
+    <script src="fontawesome-free-6.4.2-web/js/all.min.js"></script>
+    <script src="responsividade.js"></script>
+
+
+
 </body>
+
 </html>

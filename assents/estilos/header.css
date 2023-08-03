@@ -147,7 +147,8 @@ header .paragrafo {
 }
 
 
- 
+
+ /* começo typying */
 .container {
 font-size: 40px;
 color: white;
@@ -164,7 +165,7 @@ from {
 width: 0%;
 }
 to {
-width: 50%;
+width: 40%;
 }
 }
 
@@ -177,254 +178,10 @@ to {
 border-color: transparent;
 }
 }
-
-
- 
-
-
-@media (min-width:992px) and(max-width:1200px) {
-    h1 {
-        position: absolute;
-
-        display: flex;
-
-        align-items: center;
-
-        justify-content: center;
-
-     
-        margin-top: 90px;
-
-
-         font-size: 16px;
-    }
-
-    nav {
-        display: flex;
-
-        align-items: center;
-
-        justify-content: center;
-
-        padding: 20px;
-
-        margin: auto;
-
-        width: 100%;
-
-    }
-
-
-    figure {
-        overflow: hidden;
-    
-        border: 1px solid red;
-    
-        border-radius: 300px;
-    
-        width: 150px;
-    
-        height: 170px;
-    
-        margin: auto;
-    
-        margin-top: 50px;
-    }
-
-    /* Começo typing */
-    .container {
-        font-size: 40px;
-        color: white;
-        margin: auto;
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typewriter 3s steps(13) infinite alternate,
-        blink 800ms steps(13) infinite normal;
-        border-right: 5px solid blue;
-        }
-        
-        @keyframes typewriter {
-        from {
-        width: 0%;
-        }
-        to {
-        width: 50%;
-        }
-        }
-        
-        @keyframes blink {
-        from {
-        border-color: black;
-        }
-        
-        to {
-        border-color: transparent;
-        }
-        }
-}
-
 /* fim typying */
 
 
-/* Responsividade */
+/* começo  Responsividade */
 
-@media (min-width:768px) and(max-width:991px) {
-    h1 {
-        position: absolute;
-
-        display: flex;
-
-        align-items: center;
-
-        justify-content: center;
-
-     
-        margin-top: 90px;
-
-
-         font-size: 16px;
-    }
-
-    nav {
-        display: flex;
-
-        align-items: center;
-
-        justify-content: center;
-
-        padding: 20px;
-
-        margin: auto;
-
-        width: 100%;
-
-    }
-
-
-    figure {
-        overflow: hidden;
-    
-        border: 1px solid red;
-    
-        border-radius: 300px;
-    
-        width: 150px;
-    
-        height: 170px;
-    
-        margin: auto;
-    
-        margin-top: 50px;
-    }
-
-    .container {
-        font-size: 40px;
-        color: white;
-        margin: auto;
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typewriter 3s steps(13) infinite alternate,
-        blink 800ms steps(13) infinite normal;
-        border-right: 5px solid blue;
-        }
-        
-        @keyframes typewriter {
-        from {
-        width: 0%;
-        }
-        to {
-        width: 75%;
-        }
-        }
-        
-        @keyframes blink {
-        from {
-        border-color: black;
-        }
-        
-        to {
-        border-color: transparent;
-        }
-        }
-}
-
-
-@media(max-width:767px) {
-    h1 {
-        position: absolute;
-
-        display: none;
-
-        align-items: center;
-
-        justify-content: center;
-
-     
-        margin-top: 90px;
-
-
-         font-size: 16px;
-    }
-
-    nav {
-        display: flex;
-
-        align-items: center;
-
-        justify-content: center;
-
-        padding: 20px;
-
-        margin: auto;
-
-        width: 100%;
-
-    }
-
-
-    figure {
-        overflow: hidden;
-    
-        border: 1px solid red;
-    
-        border-radius: 300px;
-    
-        width: 150px;
-    
-        height: 170px;
-    
-        margin: auto;
-    
-        margin-top: 50px;
-    }
-
-    .container {
-        font-size: 28px;
-        color: white;
-        margin: auto;
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typewriter 3s steps(13) infinite alternate,
-        blink 800ms steps(13) infinite normal;
-        border-right: 5px solid blue;
-        }
-        
-        @keyframes typewriter {
-        from {
-        width: 0%;
-        }
-        to {
-        width: 100%;
-        }
-        }
-        
-        @keyframes blink {
-        from {
-        border-color: black;
-        }
-        
-        to {
-        border-color: transparent;
-        }
-        }
-}
+/* fim Responsividade  */
+ 

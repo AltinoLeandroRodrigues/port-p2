@@ -1,17 +1,68 @@
-.tecnology{
+.tecnology {
     width: 100%;
     float: left;
     background-color: #F1F1F1;
     margin-top: 20px;
     padding-top: 100px;
-    padding-left: 200px;
+    padding-left: 100px;
+    text-align: justify;
 }
-.skill{
+
+.skill {
     width: 40%;
-    margin: auto;
     float: left;
+    margin-right: 40px;
 }
-.myskills{
-    width: 40%;
-    margin: auto;
+
+.myskills {
+    width: 80%;
+    margin-top: 70px;
+}
+
+
+.myskills hr,
+p {
+    margin-top: 5px;
+}
+
+.myskills hr {
+    height: 5px;
+    border: none;
+}
+
+
+.html {
+    background-image: linear-gradient(to right, #ff6600 50%, #ddd 50%);
+}
+
+#html {
+  float: right;
+  text-decoration: none;
+}
+
+.css {
+    background-image: linear-gradient(to right, #0091D5 10%, #ddd 0%);
+}
+
+#html {
+  float: right;
+  text-decoration: none;
+}
+
+.java {
+    background-image: linear-gradient(to right, #F7DF1E 1%, #ddd 0%);
+}
+
+#html {
+  float: right;
+  text-decoration: none;
+}
+
+.freelancer {
+    background-image: linear-gradient(to right,  #860146 20%, #ddd 0%);
+}
+
+#html {
+  float: right;
+  text-decoration: none;
 }

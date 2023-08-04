@@ -31,7 +31,7 @@ header {
  }
  
  nav a:hover{
-   opacity: 0.7;
+   opacity: 0.6;
  }
 
  nav h1 a{
@@ -43,7 +43,7 @@ header {
  nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px 20px 0;
+    padding: 20px;
     align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #23232e;
@@ -56,7 +56,7 @@ header {
  }
  .nav-list li{
     letter-spacing: 2px;
-    margin-left: 32px;
+    margin-left: 20px;
  }
 
 
@@ -74,7 +74,7 @@ span {
     text-decoration: underline;
 }
 
-figure img {
+header figure img {
     width: 160px;
 
     height: 160px;
@@ -84,7 +84,7 @@ figure img {
 }
 
 
-figure {
+header figure {
     overflow: hidden;
 
     border: 1px solid red;
@@ -127,7 +127,7 @@ from {
 width: 0%;
 }
 to {
-width: 50%;
+width: 40%;
 }
 }
 

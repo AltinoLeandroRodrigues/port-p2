@@ -1,0 +1,17 @@
+.tecnology{
+    width: 100%;
+    float: left;
+    background-color: #F1F1F1;
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.skill{
+    width: 40%;
+    margin: auto;
+    float: left;
+}
+.myskills{
+    width: 40%;
+    margin: auto;
+}

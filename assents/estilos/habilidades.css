@@ -66,3 +66,37 @@ p {
   float: right;
   text-decoration: none;
 }
+
+@media (max-width:999px) {
+
+    .tecnology {
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+        
+        padding: 30px;
+        text-align: justify;
+    }
+    
+    .skill {
+        width: 100%;
+        float: left;
+        
+        margin-bottom: 25px;
+    }
+    
+    .myskills {
+        width: 100%;
+        margin-top: 70px;
+        float: left;
+    }
+    
+    
+    .myskills hr,
+    p {
+        margin-top: 5px;
+    }
+    
+  
+    
+}

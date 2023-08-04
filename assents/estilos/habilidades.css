@@ -59,7 +59,7 @@ p {
 }
 
 .freelancer {
-    background-image: linear-gradient(to right,  #860146 20%, #ddd 0%);
+    background-image: linear-gradient(to right,  rgb(2, 2, 37) 1%, #ddd 0%);
 }
 
 #html {

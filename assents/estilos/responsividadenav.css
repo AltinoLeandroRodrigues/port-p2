@@ -81,8 +81,16 @@ button {
      
 }
 
-.open{
+.active{
     transform: translateX(0);
+}
+
+.mobile-Menu.active .line1{
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-Menu.active .line3{
+    transform: rotate(-45deg) translate(-8px, 8px);
 }
 
 

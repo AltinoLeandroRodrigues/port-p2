@@ -6,6 +6,7 @@
     padding-top: 100px;
     padding-left: 100px;
     text-align: justify;
+    padding-bottom: 20px;
 }
 
 .skill {
@@ -22,7 +23,7 @@
 
 .myskills hr,
 p {
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .myskills hr {

@@ -1,0 +1,44 @@
+.job {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.servicos {
+    display: block;
+    justify-content: center;
+    padding: 50px;
+    width: 30%;
+    border: 1px solid rgba(36, 32, 32, 0.29);
+    box-shadow: 3px 3px 5px rgba(36, 32, 32, 0.367);
+    border-radius: 10px;
+}
+
+.servicos p {
+    text-align: center;
+    margin: 10px 10px 0
+}
+
+.servicos h1 {
+    text-align: center;
+    margin: 10px 10px 0
+}
+
+.jb {
+    margin-top: 60px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.line4{
+    width: 20%;
+    color: red;
+    height: 3px;
+    background-color: red;
+   margin: auto;
+}

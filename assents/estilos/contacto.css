@@ -64,17 +64,19 @@
     margin-top: 300px;
 }
 
-.email {
+.emails {
     float: right;
     margin-right: 100px;
     margin-top: 70px;
     padding: 20px;
     width: 40%;
-    background-color: white;
+    background-color: #ddd;
     border-radius: 10px;
+    box-shadow: 5px 5px 50px white;
+    
 }
 
-.email #email,
+ #email,
 #msg {
     width: 40%;
     margin-left: 10px;
@@ -94,6 +96,7 @@
 textarea {
     resize: none;
     width: 100%;
+    outline: none;
 }
 
 .resete {
@@ -103,9 +106,10 @@ textarea {
     margin-left: 20px;
     height: 35px;
     background-color: rgb(229, 25, 25);
-    border: 1px solid white;
+    border: 1px solid #ddd;
     border-radius: 5px;
     color: white;
+    transition: opacity 1s ease-in;
 }
 
 .enviar {
@@ -115,10 +119,23 @@ textarea {
     margin-left: 20px;
     height: 35px;
     background-color: #0091D5;
-    border: 1px solid white;
+    border: 1px solid #ddd;
     border-radius: 5px;
     color: white;
 }
+ 
+footer{
+    float: left;
+    background-color: #23232e;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2px;
+    color: white;
+}
+
 
 @media (max-width:999px) {
     .email {
@@ -130,12 +147,11 @@ textarea {
         background-color: white;
         border-radius: 10px;
     }
+
     .contacto {
         float: left;
         width: 100%;
         background-color: #ddd;
         padding: 20px;
     }
-    
-    
 }

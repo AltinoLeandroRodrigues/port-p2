@@ -58,18 +58,7 @@
 
     }
 
-    .nav-list .show {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background-color: #23232ee0;
-        flex-direction: column;
-        transform: translateX(0);
-        transition: transform 0.5s;
-
-    }
+ 
 
 
     .nav-list li {
@@ -89,10 +78,12 @@
     .mobile-Menu {
         display: block;
     }
-
      
 }
 
+.active{
+    transform: translateX(0);
+}
 
 
  

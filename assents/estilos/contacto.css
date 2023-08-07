@@ -1,0 +1,141 @@
+.contacto {
+    float: left;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.contacto h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacto p {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.vermelho {
+    color: #0091D5;
+    text-decoration: none;
+}
+
+.redes {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    gap: 50px;
+    margin: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+.redes a {
+    font-size: 30px;
+    color: #0091D5;
+    border: 10px solid #ddd;
+    background-color: transparent;
+    border-radius: 100%;
+    box-shadow: 1px 1px 16px white;
+
+
+
+    transition: color, 1s ease-in;
+}
+
+.redes a:hover {
+    border: 10px solid red;
+    background-color: red;
+    color: white;
+
+}
+
+.facebook {
+    margin-top: 160px;
+}
+
+.watsapp {
+    margin-top: 300px;
+}
+
+.telegram {
+    margin-top: 300px;
+}
+
+.email {
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+    padding: 20px;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.email #email,
+#msg {
+    width: 40%;
+    margin-left: 10px;
+    height: 30px;
+    margin-bottom: 50px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.email #email {
+    width: 50%;
+
+}
+
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+.resete {
+    width: 30%;
+    margin-top: 30px;
+    float: right;
+    margin-left: 20px;
+    height: 35px;
+    background-color: rgb(229, 25, 25);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.enviar {
+    width: 30%;
+    margin-top: 30px;
+    float: right;
+    margin-left: 20px;
+    height: 35px;
+    background-color: #0091D5;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+@media (max-width:999px) {
+    .email {
+        float: left;
+        margin-right: 0;
+        margin-top: 70px;
+        padding: 20px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .contacto {
+        float: left;
+        width: 100%;
+        background-color: #ddd;
+        padding: 20px;
+    }
+    
+    
+}

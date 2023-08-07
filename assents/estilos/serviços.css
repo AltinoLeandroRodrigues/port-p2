@@ -15,9 +15,14 @@
     padding: 50px;
     width: 30%;
     border: 1px solid rgba(36, 32, 32, 0.29);
-    box-shadow: 3px 3px 5px rgba(36, 32, 32, 0.367);
+    box-shadow: 3px 3px 1px rgba(36, 32, 32, 0.367);
     border-radius: 10px;
+    transition: box-shadow 0.5s ease-in;
 }
+
+/* .servicos:hover {
+    box-shadow: 5px 5px 0px white;
+} */
 
 .servicos p {
     text-align: center;
@@ -35,10 +40,53 @@
     text-align: center;
     width: 100%;
 }
-.line4{
-    width: 20%;
+
+.line4 {
+    width: 10%;
     color: red;
     height: 3px;
     background-color: red;
-   margin: auto;
+    margin: auto;
+}
+
+
+/* ^responsividade */
+@media (max-width:1200px) {
+    .servicos {
+        display: block;
+        justify-content: center;
+        padding: 50px;
+        width: 30%;
+        border: 1px solid rgba(36, 32, 32, 0.29);
+        box-shadow: 3px 3px 5px rgba(36, 32, 32, 0.367);
+        border-radius: 10px;
+    }
+}
+
+
+
+
+@media (max-width:991px) {
+    .servicos {
+        display: block;
+        justify-content: center;
+        padding: 50px;
+        width: 40%;
+        border: 1px solid rgba(36, 32, 32, 0.29);
+        box-shadow: 3px 3px 5px rgba(36, 32, 32, 0.367);
+        border-radius: 10px;
+    }
+}
+
+
+@media(max-width:767px) {
+    .servicos {
+        display: block;
+        justify-content: center;
+        padding: 50px;
+        width: 80%;
+        border: 1px solid rgba(36, 32, 32, 0.29);
+        box-shadow: 3px 3px 5px rgba(36, 32, 32, 0.367);
+        border-radius: 10px;
+    }
 }

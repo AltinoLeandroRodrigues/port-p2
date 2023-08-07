@@ -25,8 +25,9 @@
     width: 40%;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 80px;
-    gap: 50px;
+    gap: 30px;
     margin: auto;
     float: left;
     margin-left: 50px;
@@ -138,7 +139,7 @@ footer{
 
 
 @media (max-width:999px) {
-    .email {
+    .emails {
         float: left;
         margin-right: 0;
         margin-top: 70px;
@@ -153,5 +154,16 @@ footer{
         width: 100%;
         background-color: #ddd;
         padding: 20px;
+    }
+    .redes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        gap: 30px;
+        margin: auto;
+        float: left;
+     
     }
 }

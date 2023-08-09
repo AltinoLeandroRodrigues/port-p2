@@ -101,6 +101,7 @@ textarea {
 }
 
 .resete {
+    cursor: pointer;
     width: 30%;
     margin-top: 30px;
     float: right;
@@ -114,6 +115,7 @@ textarea {
 }
 
 .enviar {
+    cursor: pointer;
     width: 30%;
     margin-top: 30px;
     float: right;
@@ -139,6 +141,18 @@ footer{
 
 
 @media (max-width:999px) {
+
+    #email,
+    #msg {
+        width: 100%;
+        margin-left: 2px;
+        height: 30px;
+        margin-bottom: 50px;
+        outline: none;
+        border-radius: 3px;
+        border: 1px solid black;
+    }
+
     .emails {
         float: left;
         margin-right: 0;
